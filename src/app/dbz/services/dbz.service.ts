@@ -25,7 +25,6 @@ export class DbzService {
   // };
 
   deleteCharacterById(id: string): void {
-    console.log(id);
     this.characters = this.characters.filter(character => character.id !== id);
   };
 }
